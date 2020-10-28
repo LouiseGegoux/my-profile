@@ -1,0 +1,74 @@
+/*fonts and colors*/
+body	{ 
+    background-color: #f2f4f9 ;
+    font-family: 'Open Sans', sans-serif;
+ }
+
+h1	{ color: rgb(244, 246, 247);  
+letter-spacing: 1px; 
+font-size: 40px; 
+font-weight: 900; 
+} 
+
+h2	{ color: #495464 ; 
+font-weight: bolder; 
+}
+
+p	{ color: rgb(252, 251, 249);
+font-weight: 300;
+}
+
+a { text-decoration: none;
+color : #222830;
+font-size: 30px;
+ }
+
+ a:hover { color: #e8e8e8
+ }
+
+ ul {
+list-style-type: none;
+padding-left :0px;
+}
+
+/* Custom design with tags*/
+
+.container {
+text-align: center;
+width: 700px;
+margin: 40px auto;
+}
+
+.card-blue {         background: #bbbfca;
+padding: 25px;
+margin: 20px auto;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+border-radius: 7px;
+width: 500px
+}
+
+#photo {
+	width: 100px;
+	border:2px solid rgb(252, 251, 249);
+}
+
+.img-circle {
+	border-radius: 7%
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+@media (max-width: 500px) {
+	.container{
+		width:400px; 
+	}
+}
+
+@media (max-width: 760px){
+	.container {
+		width:600px;
+	}
+}
